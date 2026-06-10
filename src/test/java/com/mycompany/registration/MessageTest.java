@@ -147,5 +147,74 @@ public class MessageTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of displayStoredMessages method, of class Message.
+     */
+    @Test
+    public void testDisplayStoredMessages() {
+        System.out.println("displayStoredMessages");
+        Message.displayStoredMessages();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of displayLongestStoredMessage method, of class Message.
+     */
+    @Test
+    public void testDisplayLongestStoredMessage() {
+        System.out.println("displayLongestStoredMessage");
+        Message.displayLongestStoredMessage();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of searchMessageID method, of class Message.
+     */
+    @Test
+    public void testSearchMessageID() {
+        System.out.println("searchMessageID");
+        String id = "";
+        Message.searchMessageID(id);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of searchRecipient method, of class Message.
+     */
+    @Test
+    public void testSearchRecipient() {
+        System.out.println("searchRecipient");
+        String recipientNumber = "";
+        Message.searchRecipient(recipientNumber);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of deleteMessage method, of class Message.
+     */
+    @Test
+    public void testDeleteMessage() {
+        System.out.println("deleteMessage");
+        String hash = "";
+        Message.deleteMessage(hash);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of displayReport method, of class Message.
+     */
+    @Test
+    public void testDisplayReport() {
+        System.out.println("displayReport");
+        Message.displayReport();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
